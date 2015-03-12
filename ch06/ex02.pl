@@ -14,4 +14,3 @@ foreach(@lines){
 foreach my $key (sort keys %repeated_names){
 	print "$key => $repeated_names{$key}\n";
 }
-
